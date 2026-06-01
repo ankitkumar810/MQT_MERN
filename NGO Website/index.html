@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Arms Foundation</title>
+   <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+            overflow-x: hidden; /* Prevent horizontal scroll */
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 0;
+        }
+
+        header {
+            background-color: #681f8f;
+            color: white;
+            text-align: center;
+            padding: 80px 0;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            position: relative;
+            animation: fadeIn 1s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        header h1 {
+            font-size: 3.5em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        nav {
+            margin: 20px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ffcc00; /* Highlight color on hover */
+        }
+
+        .section {
+            padding: 60px 0;
+            animation: slideIn 0.5s ease-in-out;
+        }
+
+        @keyframes slideIn {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        .mission-vision {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .mission-vision h2 {
+            color: #681f8f;
+            margin-bottom: 20px;
+            font-size: 2.5em;
+        }
+
+        .donation-form, .volunteer-form {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 40px auto;
+            max-width: 500px;
+        }
+
+        .donation-form h2, .volunteer-form h2 {
+            color: #681f8f;
+            margin-bottom: 30px;
+            text-align: center;
+            font-size: 2em;
+        }
+
+        .donation-form input, .donation-form textarea, .volunteer-form input, .volunteer-form textarea {
+            width: 100%;
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-size: 16px;
+            transition: border-color 0.3s ease;
+        }
+
+        .donation-form input:focus, .volunteer-form input:focus,
+        .donation-form textarea:focus, .volunteer-form textarea:focus {
+            border-color: #681f8f; /* Change border color on focus */
+            outline: none; /* Remove default outline */
+        }
+
+        .donation-form button, .volunteer-form button {
+            background-color: #681f8f;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+            width: 100%;
+ }
+
+        .donation-form button:hover, .volunteer-form button:hover {
+            background-color: #551a8b;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            animation: zoomIn 0.5s ease forwards;
+            opacity: 0; /* Start hidden */
+        }
+
+        @keyframes zoomIn {
+            from { transform: scale(0.8); opacity: 0; }
+            to { transform: scale(1); opacity: 1; }
+        }
+
+        footer {
+            background-color: #681f8f;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            animation: fadeIn 1s ease-in;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5em;
+            }
+
+            .mission-vision h2, .donation-form h2, .volunteer-form h2 {
+                font-size: 1.8em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>OPEN ARMS FOUNDATION</h1>
+        <nav>
+            <a href="#mission">Mission</a>
+            <a href="#vision">Vision</a>
+            <a href="#donate">Donate</a>
+            <a href="#impact">Impact</a>
+            <a href="#volunteer">Volunteer</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section class="section mission-vision" id="mission">
+            <h2>Our Mission</h2>
+            <p>To provide essential resources and compassionate support to those in hardship. We aim to empower them to rebuild their lives with dignity.</p>
+            <h2>Our Vision</h2>
+            <p>A world where every person feels welcomed and valued, regardless of their circumstances. A community where open arms are always extended.</p>
+        </section>
+
+        <section class="section donation-form" id="donate">
+            <h2>Donate Now</h2>
+            <form>
+                <input type="text" placeholder="Your Name" aria-label="Your Name" required>
+                <input type="email" placeholder="Your Email" aria-label="Your Email" required>
+                <input type="number" placeholder="Amount (INR)" aria-label="Amount (INR)" required>
+                <textarea placeholder="Message (Optional)"></textarea>
+                <button type="submit">Donate</button>
+            </form>
+        </section>
+
+        <section class="section gallery" id="impact">
+            <h2>Our Impact</h2>
+            <img src="https://storage2.snappages.site/4VD6DQ/assets/images/5472091_1280x850_500.jpg" alt="Impact 1">
+            <img src="https://storage2.snappages.site/4VD6DQ/assets/images/5527315_1280x960_500.jpg" alt="Impact 2">
+            <img src="https://storage2.snappages.site/4VD6DQ/assets/images/6273699_6016x4000_500.JPG" alt="Impact 3">
+            <img src="https://th.bing.com/th/id/OIP.7RVDE4UrCQ2kV7DMZy_fiQHaD4?rs=1&pid=ImgDetMain" alt="Impact 4">
+            <img src="https://helplocal.in/blog/wp-content/uploads/2020/12/191286_1.jpg" alt="Impact 5"> <!-- Add more images -->
+            <img src="https://media.gettyimages.com/id/1498170916/photo/a-couple-is-taking-a-bag-of-food-at-the-food-and-clothes-bank.jpg?s=612x612&w=gi&k=20&c=OQXzpRYIt4_vr0b2tTz9Wsz8aCPi9FgUBwGSEeJaToM=" alt="Impact 6">
+            <img src="https://vakilsearch.com/blog/wp-content/uploads/2021/08/Types-Of-NGO-Registration-And-Its-Benefits-1.jpg" alt="Impact 7">
+            <img src="https://www.nest.ngo/images/banner3.jpg" alt="Impact 8">
+        </section>
+
+        <section class="section volunteer-form" id="volunteer">
+            <h2>Volunteer Registration</h2>
+            <form>
+                <input type="text" placeholder="Your Name" aria-label="Your Name" required>
+                <input type="email" placeholder="Your Email" aria-label="Your Email" required>
+                <input type="tel" placeholder="Phone Number" aria-label="Phone Number" required>
+                <textarea placeholder="Why do you want to volunteer?" required></textarea>
+                <button type="submit">Register</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Open Arms Foundation. All rights reserved.</p>
+    </footer>
+</body>
+</html>

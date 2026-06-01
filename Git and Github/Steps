@@ -1,0 +1,66 @@
+🍴 STEP 1: Fork the Repository
+👉 Go to the repository on GitHub
+👉 Click Fork (top right)
+This creates your own copy of the project
+
+📥 STEP 2: Clone Your Fork
+git clone https://github.com/YOUR-USERNAME/REPO-NAME.git
+
+👉 This downloads the project to your computer
+
+📂 STEP 3: Go Inside the Folder
+cd REPO-NAME
+
+👉 Moves you into the project directory
+
+✍️ STEP 4: Make Changes
+👉 Open the folder in VS Code
+👉 Add your card in index.html
+
+🔍 STEP 5: Check Changes
+git status
+
+👉 Shows what files you changed
+
+➕ STEP 6: Add Changes
+git add .
+
+👉 Stages all your changes for commit
+
+📝 STEP 7: Commit Changes
+git commit -m "Added my first PR 🎉"
+
+👉 Saves your changes with a message
+
+
+🚀 STEP 8: Push to GitHub
+git push origin main
+
+👉 Uploads your code to your GitHub fork
+
+🔁 STEP 9: Create Pull Request
+👉 Go to your fork on GitHub
+👉 Click Compare & Pull Request
+👉 Click Create Pull Request
+👉 Done 🎉
+
+⚠️ COMMON ERRORS (DON’T PANIC)
+
+ Error: “Permission denied”
+👉 Solution:
+Use your GitHub username
+Use Personal Access Token instead of password
+
+ Error: “Nothing to commit”
+👉 Means:
+You didn’t change anything
+👉 Solution:
+Make sure you edited the file
+
+ Error: “Rejected (fetch first)”
+👉 Solution:
+git pull origin main --allow-unrelated-histories
+
+Then push again:
+git push origin main
+
