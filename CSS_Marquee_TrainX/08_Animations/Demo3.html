@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box{
+            height: 100px;
+            width: 100px;
+            animation-name: pop-in-out;;
+            animation-duration: 2.5s;
+            animation-iteration-count: infinite;
+
+        }
+        /* @keyframes pop-in-out {
+            from{
+                background-color: yellow;
+                margin-left: 50%;
+            } to{
+                background-color: black;
+
+            }
+        } */
+        @keyframes pop-in-out {
+        0% {
+            background-color: white;
+            margin-left: 0;
+            }
+        25% {
+            background-color: rgb(219, 22, 22);
+            margin-left: 150px;
+            margin-top: 0;
+        }
+        75% {
+            background-color: rgb(255, 247, 2);
+            margin-left: 150px;
+            margin-top: 200px;
+        }
+        100%{
+            background-color: rgb(231, 9, 176);
+            margin-left: 0px;
+            margin-top: 200px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="box"></div>
+
+</body>
+</html>
