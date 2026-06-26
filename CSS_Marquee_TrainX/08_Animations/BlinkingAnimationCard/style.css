@@ -1,0 +1,116 @@
+*{
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#6a11cb,#8e44ad,#9b59b6);
+}
+
+.card{
+    width:350px;
+    background:#fff;
+    border-radius:20px;
+    padding:30px;
+    text-align:center;
+    box-shadow:0 20px 40px rgba(0,0,0,0.25);
+    animation:float 3s ease-in-out infinite;
+    transition:.4s;
+}
+
+.card:hover{
+    transform:translateY(-10px) scale(1.03);
+}
+
+.profile{
+    width:150px;
+    height:150px;
+    border-radius:10%;
+    object-fit:cover;
+    border:5px solid #8e44ad;
+    transition:.5s;
+}
+
+.profile:hover{
+    transform:scale(1.1) rotate(5deg);
+}
+
+h2{
+    margin-top:20px;
+    color:#333;
+}
+
+.role{
+    color:#777;
+    margin:8px 0 25px;
+}
+
+.stats{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:30px;
+}
+
+.stats h3{
+    color:#6a11cb;
+    font-size:22px;
+}
+
+.stats span{
+    color:#666;
+    font-size:14px;
+}
+
+.buttons{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+}
+
+button{
+    padding:12px 28px;
+    border:none;
+    border-radius:30px;
+    cursor:pointer;
+    font-size:16px;
+    transition:.3s;
+}
+
+.follow{
+    background:#6a11cb;
+    color:white;
+}
+
+.follow:hover{
+    background:#4e0fa3;
+    transform:translateY(-3px);
+    box-shadow:0 10px 20px rgba(106,17,203,.35);
+}
+
+.message{
+    background:white;
+    color:#6a11cb;
+    border:2px solid #6a11cb;
+}
+
+.message:hover{
+    background:#6a11cb;
+    color:white;
+    transform:translateY(-3px);
+}
+
+@keyframes float{
+    0%{
+        transform:translateY(0);
+    }
+    50%{
+        transform:translateY(-10px);
+    }
+    100%{
+        transform:translateY(0);
+    }
+}
