@@ -1,340 +1,346 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Online Shopping site for Mobile, Cloths...</title>
-    <link
-      rel="shortcut icon"
-      href="https://tse4.mm.bing.net/th/id/OIP.I70WuHuME5bj3-i-LO_NhwHaHa?rs=1&pid=ImgDetMain&o=7&rm=3"
-      type="image/x-icon"
-    />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart Clone</title>
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <!-- google fonts -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header>
-      <nav>
-        <section id="top-nav">
-          <div class="top-nav-left">
-            <div class="btn" style="background-color: #ffe51fff">
-              <img
-                src="https://rukminim2.flixcart.com/fk-p-flap/52/44/image/d2ecfddf891a3922.png?q=90"
-                alt=""
-              />
-              <img
-                src="https://rukminim2.flixcart.com/fk-p-flap/92/36/image/31f7e3af490c225f.png?q=60"
-                alt=""
-              />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+
+<header>
+
+    <nav class="navbar">
+
+        <!-- Logo -->
+
+        <div class="logo">
+
+            <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/flipkart-095e08.svg"
+                alt="Flipkart">
+
+        </div>
+
+        <!-- Search -->
+
+        <div class="search-box">
+
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+            <input type="text"
+                placeholder="Search for Products, Brands and More">
+
+        </div>
+
+        <!-- Navigation -->
+
+        <div class="nav-links">
+
+            <div class="nav-item">
+
+                <i class="fa-regular fa-user"></i>
+
+                <span>Login</span>
+
             </div>
-            <div style="background-color: gainsboro" class="btn">✈️ Travel</div>
-          </div>
-          <div class="top-nav-right">
-            <i class="fa-sharp fa-solid fa-location-dot"></i>
-            <p>Location : Vadodra</p>
-          </div>
-        </section>
 
-        <section id="bottom-nav">
-          <div class="btn-box"></div>
-          <div class="login-box"></div>
-        </section>
-        <section id="icons-box">
-          <div class="icons-items">
-            <img
-              src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/all.svg"
-              alt=""
-            />
-            <p>Bags</p>
-          </div>
-          <div class="icons-items">
-            <img
-              src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/fashion.svg"
-              alt=""
-            />
-            <p>Fashion</p>
-          </div>
-          <div class="icons-items">
-            <img
-              src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/mobiles.svg"
-              alt=""
-            />
-            <p>Mobile</p>
-          </div>
-          <div class="icons-items">
-            <img
-              src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/beauty.svg"
-              alt=""
-            />
-            <p>Beauty</p>
-          </div>
-          <div class="icons-items">
-            <img
-              src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/electronics.svg"
-              alt=""
-            />
-            <p>Computers</p>
-          </div>
-          <div class="icons-items">
-            <img
-              src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/home-final.svg"
-              alt=""
-              style="width: 35px; height: 35px; box-sizing: border-box"
-            />
-            <p>Electronics</p>
-          </div>
-          <div class="icons-items">
-            <img
-              src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/tv.svg"
-              alt=""
-            />
-            <p>Appliances</p>
-          </div>
-          <div class="icons-items">
-            <img
-              src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/toy.svg"
-              alt=""
-            />
-            <p>Toys</p>
-          </div>
-          <div class="icons-items">
-            <img
-              src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/food.svg"
-              alt=""
-            />
-            <p>Food</p>
-          </div>
-          <div class="icons-items">
-            <img
-              src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/food.svg"
-              alt=""
-            />
-            <p>Food</p>
-          </div>
-          <div class="icons-items">
-            <img
-              src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/food.svg"
-              alt=""
-            />
-            <p>Food</p>
-          </div>
-          <div class="icons-items">
-            <img
-              src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/food.svg"
-              alt=""
-            />
-            <p>Food</p>
-          </div>
-          <div class="icons-items">
-            <img
-              src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/food.svg"
-              alt=""
-            />
-            <p>Food</p>
-          </div>
-        </section>
-      </nav>
-    </header>
-    <main>
-      <section id="ad-banner">
-        <div class="ad-banners" id="banner-item-1">
-          <img
-            src="https://rukminim2.flixcart.com/fk-p-flap/3200/1560/image/3bcf6bc21bb6f4aa.png?q=60"
-            alt=""
-          />
+            <div class="nav-item">
+
+                <i class="fa-solid fa-cart-shopping"></i>
+
+                <span>Cart</span>
+
+            </div>
+
+            <div class="nav-item">
+
+                <i class="fa-solid fa-store"></i>
+
+                <span>Become a Seller</span>
+
+            </div>
+
+            <div class="nav-item">
+
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+
+            </div>
+
         </div>
 
-        <div class="ad-banners" id="banner-item-2">
-          <img
-            src="https://rukminim2.flixcart.com/fk-p-flap/3200/1560/image/7032b61a38b34471.png?q=60"
-            alt=""
-          />
-        </div>
-        <div class="ad-banners" id="banner-item-3">
-          <img
-            src="https://rukminim2.flixcart.com/fk-p-flap/3200/1560/image/7032b61a38b34471.png?q=60"
-            alt=""
-          />
-        </div>
-      </section>
-      <section id="home-decor-1">
-        <div id="home-decor-top">
-          <h2>Home Decor and Furnishing</h2>
-          <div class="right-swipe-icons" style="color: black">
+    </nav>
+
+</header>
+
+<!-- ================= CATEGORIES ================= -->
+
+<section class="categories">
+
+    <div class="category">
+
+        <img src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/grocery.svg">
+
+        <p>Grocery</p>
+
+    </div>
+
+    <div class="category">
+
+        <img src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/mobiles.svg">
+
+        <p>Mobiles</p>
+
+    </div>
+
+    <div class="category">
+
+        <img src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/fashion.svg">
+
+        <p>Fashion</p>
+
+    </div>
+
+    <div class="category">
+
+        <img src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/electronics.svg">
+
+        <p>Electronics</p>
+
+    </div>
+
+    <div class="category">
+
+        <img src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/home.svg">
+
+        <p>Home</p>
+
+    </div>
+
+    <div class="category">
+
+        <img src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/appliances.svg">
+
+        <p>Appliances</p>
+
+    </div>
+
+    <div class="category">
+
+        <img src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/travel.svg">
+
+        <p>Travel</p>
+
+    </div>
+
+    <div class="category">
+
+        <img src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/beauty.svg">
+
+        <p>Beauty</p>
+
+    </div>
+
+    <div class="category">
+
+        <img src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/two-wheeler.svg">
+
+        <p>Two Wheelers</p>
+
+    </div>
+
+</section>
+
+<!-- ================= HERO BANNER ================= -->
+
+<section class="hero">
+
+    <img src="https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/3bcf6bc21bb6f4aa.png?q=80"
+        alt="Banner">
+
+</section>
+
+<!-- ================= PRODUCT SECTION START ================= -->
+
+<section class="product-section">
+
+    <div class="section-title">
+
+        <h2>Best of Electronics</h2>
+
+        <button>
             <i class="fa-solid fa-arrow-right"></i>
-          </div>
-        </div>
-        <div id="home-decors-cards-container">
-          <div class="home-decor-cards">
-            <img
-              src="https://rukminim2.flixcart.com/image/612/612/xif0q/face-wash/x/m/x/-original-imagvyzgbhzf9mk9.jpeg?q=70"
-              alt=""
-            />
-            <p>Key Holders</p>
-            <span>Min 50% Off</span>
-          </div>
-          <div class="home-decor-cards">
-            <img
-              src="https://rukminim2.flixcart.com/image/612/612/kcgk1ow0/face-wash/x/n/r/300-morning-energy-lemon-fresh-clean-clear-original-imafth356uetvh9z.jpeg?q=70"
-              alt=""
-            />
-            <p>Key Holders</p>
-            <span>Min 50% Off</span>
-          </div>
-          <div class="home-decor-cards">
-            <img
-              src="https://rukminim2.flixcart.com/image/612/612/xif0q/face-wash/x/m/x/-original-imagvyzgbhzf9mk9.jpeg?q=70"
-              alt=""
-            />
-            <p>Key Holders</p>
-            <span>Min 50% Off</span>
-          </div>
-          <div class="home-decor-cards">
-            <img
-              src="https://rukminim2.flixcart.com/image/612/612/xif0q/face-wash/x/m/x/-original-imagvyzgbhzf9mk9.jpeg?q=70"
-              alt=""
-            />
-            <p>Key Holders</p>
-            <span>Min 50% Off</span>
-          </div>
-          <div class="home-decor-cards">
-            <img
-              src="https://rukminim2.flixcart.com/image/612/612/xif0q/face-wash/x/m/x/-original-imagvyzgbhzf9mk9.jpeg?q=70"
-              alt=""
-            />
-            <p>Key Holders</p>
-            <span>Min 50% Off</span>
-          </div>
+        </button>
+
+    </div>
+
+    <div class="products">
+              <div class="product-card">
+            <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/a/r/4/-original-imagqevf8z8v5fjt.jpeg?q=70" alt="">
+            <p>Wireless Headphones</p>
+            <span>From ₹999</span>
         </div>
 
-        <!-- .container>p+h1 -->
-      </section>
-      <section id="home-decor-2">
-        <div id="home-decor-top">
-          <h2>Home Decor and Furnishing</h2>
-          <div class="right-swipe-icons" style="color: black">
+        <div class="product-card">
+            <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/x/l/l/-original-imagxrhetgfuebnn.jpeg?q=70" alt="">
+            <p>Smart Watches</p>
+            <span>Up to 70% Off</span>
+        </div>
+
+        <div class="product-card">
+            <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/f/t/h/-original-imagv2fjh6hhqhmx.jpeg?q=70" alt="">
+            <p>Sports Shoes</p>
+            <span>Min 50% Off</span>
+        </div>
+
+        <div class="product-card">
+            <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/trimmer/j/e/4/-original-imagqg6gk5xmgd5b.jpeg?q=70" alt="">
+            <p>Trimmers</p>
+            <span>From ₹699</span>
+        </div>
+
+        <div class="product-card">
+            <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/backpack/e/f/g/-original-imagz7phm9bgq9hr.jpeg?q=70" alt="">
+            <p>Backpacks</p>
+            <span>Min 40% Off</span>
+        </div>
+
+        <div class="product-card">
+            <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/speaker/mobile-tablet-speaker/r/z/x/-original-imagw8g8h9hyh9vb.jpeg?q=70" alt="">
+            <p>Bluetooth Speakers</p>
+            <span>Up to 60% Off</span>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= BEAUTY SECTION ================= -->
+
+<section class="product-section">
+
+    <div class="section-title">
+        <h2>Beauty, Food & More</h2>
+
+        <button>
             <i class="fa-solid fa-arrow-right"></i>
-          </div>
-        </div>
-        <div id="home-decors-cards-container">
-          <div class="home-decor-cards">
-            <img
-              src="https://rukminim2.flixcart.com/image/612/612/xif0q/face-wash/x/m/x/-original-imagvyzgbhzf9mk9.jpeg?q=70"
-              alt=""
-            />
-            <p>Key Holders</p>
+        </button>
+    </div>
+
+    <div class="products">
+
+        <div class="product-card">
+            <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/face-wash/x/m/x/-original-imagvyzgbhzf9mk9.jpeg?q=70" alt="">
+            <p>Face Wash</p>
             <span>Min 50% Off</span>
-          </div>
-          <div class="home-decor-cards">
-            <img
-              src="https://rukminim2.flixcart.com/image/612/612/kcgk1ow0/face-wash/x/n/r/300-morning-energy-lemon-fresh-clean-clear-original-imafth356uetvh9z.jpeg?q=70"
-              alt=""
-            />
-            <p>Key Holders</p>
-            <span>Min 50% Off</span>
-          </div>
-          <div class="home-decor-cards">
-            <img
-              src="https://rukminim2.flixcart.com/image/612/612/xif0q/face-wash/x/m/x/-original-imagvyzgbhzf9mk9.jpeg?q=70"
-              alt=""
-            />
-            <p>Key Holders</p>
-            <span>Min 50% Off</span>
-          </div>
-          <div class="home-decor-cards">
-            <img
-              src="https://rukminim2.flixcart.com/image/612/612/xif0q/face-wash/x/m/x/-original-imagvyzgbhzf9mk9.jpeg?q=70"
-              alt=""
-            />
-            <p>Key Holders</p>
-            <span>Min 50% Off</span>
-          </div>
-          <div class="home-decor-cards">
-            <img
-              src="https://rukminim2.flixcart.com/image/612/612/xif0q/face-wash/x/m/x/-original-imagvyzgbhzf9mk9.jpeg?q=70"
-              alt=""
-            />
-            <p>Key Holders</p>
-            <span>Min 50% Off</span>
-          </div>
         </div>
 
-        <!-- .container>p+h1 -->
-      </section>
-      <section id="spotlight-container">
-        <h2>Brand in Spotlight</h2>
-        <div id="spotlight-items-container">
-          <div class="spotlight-items">
-            <img
-              src="https://rukminim2.flixcart.com/fk-p-flap/440/580/image/1f06224f74b7dde6.png?q=60"
-              alt=""
-            />
-            <p>Image 1</p>
-          </div>
-          <div class="spotlight-items">
-            <img
-              src="https://rukminim2.flixcart.com/fk-p-flap/440/580/image/1f06224f74b7dde6.png?q=60"
-              alt=""
-            />
-            <p>Image 2</p>
-          </div>
-          <div class="spotlight-items">
-            <img
-              src="https://rukminim2.flixcart.com/fk-p-flap/440/580/image/1f06224f74b7dde6.png?q=60"
-              alt=""
-            />
-            <p>Image 3</p>
-          </div>
+        <div class="product-card">
+            <img src="https://rukminim2.flixcart.com/image/612/612/kcgk1ow0/face-wash/x/n/r/300-morning-energy-lemon-fresh-clean-clear-original-imafth356uetvh9z.jpeg?q=70" alt="">
+            <p>Skin Care</p>
+            <span>Up to 60% Off</span>
         </div>
-      </section>
-      <section id="spotlight-container-1">
-        <div id="spotlight-items-container">
-          <div class="spotlight-items">
-            <img
-              src="https://rukminim2.flixcart.com/fk-p-flap/440/580/image/1f06224f74b7dde6.png?q=60"
-              alt=""
-            />
-            <p>Image 1</p>
-          </div>
-          <div class="spotlight-items">
-            <img
-              src="https://rukminim2.flixcart.com/fk-p-flap/440/580/image/1f06224f74b7dde6.png?q=60"
-              alt=""
-            />
-            <p>Image 2</p>
-          </div>
-          <div class="spotlight-items">
-            <img
-              src="https://rukminim2.flixcart.com/fk-p-flap/440/580/image/1f06224f74b7dde6.png?q=60"
-              alt=""
-            />
-            <p>Image 3</p>
-          </div>
+
+        <div class="product-card">
+            <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/perfume/g/v/y/-original-imaghxyhjgzhvxyh.jpeg?q=70" alt="">
+            <p>Perfumes</p>
+            <span>From ₹299</span>
         </div>
-      </section>
-    </main>
-    <footer>
-      <div id="footer-nav-left">
-        <!-- div>h3+ul>li{item $}*5  -->
-      </div>
-      <div id="footer-nav-right">
-        <!-- div>h3+ul>li{item $}*2  -->
-      </div>
-    </footer>
-  </body>
+
+        <div class="product-card">
+            <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/hair-oil/z/e/l/-original-imagq4szhf4fgbhz.jpeg?q=70" alt="">
+            <p>Hair Oil</p>
+            <span>Up to 70% Off</span>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= BRAND SPOTLIGHT ================= -->
+
+<section class="spotlight">
+
+    <h2>Brand Spotlight</h2>
+
+    <div class="spotlight-container">
+
+        <div class="spotlight-card">
+            <img src="https://rukminim2.flixcart.com/fk-p-flap/440/580/image/1f06224f74b7dde6.png?q=70" alt="">
+        </div>
+
+        <div class="spotlight-card">
+            <img src="https://rukminim2.flixcart.com/fk-p-flap/440/580/image/7032b61a38b34471.png?q=70" alt="">
+        </div>
+
+        <div class="spotlight-card">
+            <img src="https://rukminim2.flixcart.com/fk-p-flap/440/580/image/3bcf6bc21bb6f4aa.png?q=70" alt="">
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="footer-container">
+
+        <div class="footer-column">
+            <h4>ABOUT</h4>
+            <a href="#">Contact Us</a>
+            <a href="#">About Us</a>
+            <a href="#">Careers</a>
+            <a href="#">Press</a>
+        </div>
+
+        <div class="footer-column">
+            <h4>HELP</h4>
+            <a href="#">Payments</a>
+            <a href="#">Shipping</a>
+            <a href="#">Cancellation</a>
+            <a href="#">FAQ</a>
+        </div>
+
+        <div class="footer-column">
+            <h4>POLICY</h4>
+            <a href="#">Return Policy</a>
+            <a href="#">Terms Of Use</a>
+            <a href="#">Privacy</a>
+        </div>
+
+        <div class="footer-column">
+            <h4>SOCIAL</h4>
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+            <a href="#">YouTube</a>
+        </div>
+
+    </div>
+
+    <hr>
+
+    <p class="copyright">
+        © 2026 Flipkart Clone | Made with ❤️ using HTML & CSS
+    </p>
+
+</footer>
+
+</body>
 </html>
