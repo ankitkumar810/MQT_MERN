@@ -10,3 +10,22 @@ const newArray = array.map((element, index, array) {
 array.reduce((accumulator, currentValue, index, array) => {
     return newAccumulator;
 }, initialValue);
+// 3. forEach(): 
+
+array.forEach((element, index, array) {
+// your code here
+});
+
+// 4. find(): The find() method returns the first element in an array that satisfies a provided test function, or undefined if no element matches.
+
+// 5. filter(): Creates a new array with only all the elements that pass a test condition and else returned Empty/NullArray
+
+const filteredArray = array.filter((element, index, array) => { 
+    return condition;
+});
+
+/*
+6. sort(): Sort the array
+(a,b)=> a-b: ascending Order
+(a,b)=> b-a: descending Order
+*/
