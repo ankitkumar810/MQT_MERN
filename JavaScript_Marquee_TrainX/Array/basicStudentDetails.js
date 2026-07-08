@@ -1,3 +1,4 @@
+//BasicStudentDetails
 function basicStudentDetails(value){
   const students = [
   {
@@ -140,3 +141,15 @@ function basicStudentDetails(value){
 
 let modifiedStudents = students.map((student)=>basicStudentDetails(student));
 console.log(modifiedStudents);
+
+// Percentage
+
+function getPercentage(studentArray){
+  const required = student.length * 100;
+
+  // console.log('Length :'+ required);
+  let total = studentArray.reduce((acc, curr) => arr+curr, 0);
+  const result = (total/required) * 100;
+  return result;
+}
+
