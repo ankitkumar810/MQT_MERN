@@ -4,7 +4,6 @@ const newArray = array.map((element, index, array) {
     return modifiedElement;
 });
 
-
 // 2. reduce(): reduce methods is used to transform an array into a single value, with callback functions having two argument accumulator, currentValue
 
 array.reduce((accumulator, currentValue, index, array) => {
@@ -29,3 +28,4 @@ const filteredArray = array.filter((element, index, array) => {
 (a,b)=> a-b: ascending Order
 (a,b)=> b-a: descending Order
 */
+
