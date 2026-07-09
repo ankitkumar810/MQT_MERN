@@ -29,3 +29,13 @@ const filteredArray = array.filter((element, index, array) => {
 (a,b)=> b-a: descending Order
 */
 
+let arrayOfMarks students.map((student) =>
+student.examScore.reduce((acc, curr) => curr.marks + acc, 0)
+);
+let sortedArray arrayOfMarks.sort((a, b) => b-a);
+console.log(arrayOfMarks);
+console.log(`Highest Marks: ${sortedArray[0]}`);
+
+function sendEmail (student) {
+
+}
