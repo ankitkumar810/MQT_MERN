@@ -51,3 +51,18 @@ console.log(markss.findIndex ((value) => value == 20));
 console.log(markss.find((value) => value == 20));
 
 // 14. indexOf():find the index of a particular value we can call .indexOf which will return an index value: else -1 if not found)
+
+
+//QUESTION: Calculate the Total Price of the Products in Cart.
+// EXPECTED OUTPUT: Total Price: Rs......
+const cart = [
+  { name: 'Laptop', quantity: 1, price: 55000 },
+  { name: 'Mouse', quantity: 2, price: 700 },
+  { name: 'Keyboard', quantity: 1, price: 1500 },
+  { name: 'Monitor', quantity: 2, price: 12000 },
+  { name: 'Headphones', quantity: 1, price: 2500 },
+  { name: 'USB Cable', quantity: 3, price: 250 },
+  { name: 'Webcam', quantity: 1, price: 3200 },
+  { name: 'External Hard Drive', quantity: 1, price: 4800 },
+  { name: 'Laptop Stand', quantity: 2, price: 900 },
+];
