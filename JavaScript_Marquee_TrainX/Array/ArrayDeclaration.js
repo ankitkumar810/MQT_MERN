@@ -39,3 +39,15 @@ console.log(`Highest Marks: ${sortedArray[0]}`);
 function sendEmail (student) {
 
 }
+
+let cars = ["Maruti', 'Benz' 'Breeza', 'Etios', 'Dzire']; 
+let newArr = cars.splice(2, 0, 'Innova');
+console.log(newArr);
+
+// 13. findIndex (): Returns the index of the first element in an array that satisfies the provided testing function.
+
+const markss = [10, 20, 30, 20, 50];
+console.log(markss.findIndex ((value) => value == 20));
+console.log(markss.find((value) => value == 20));
+
+// 14. indexOf():find the index of a particular value we can call .indexOf which will return an index value: else -1 if not found)
