@@ -1,4 +1,4 @@
-# Frontend Learning Projects 🚀
+# Frontend Learning Training 🚀
 
 This repository contains a collection of beginner-friendly web development projects created while learning HTML, CSS, JavaScript, Git, and GitHub.
 
