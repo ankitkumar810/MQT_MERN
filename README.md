@@ -21,11 +21,12 @@ A responsive NGO website showcasing organization details, programs, and contact 
 
 ## Technologies Used
 
-- HTML5
-- CSS3
-- JavaScript
-- Git
-- GitHub
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=html,css,js,git,github" />
+  </a>
+</p>
+
 
 ## Learning Objectives
 
