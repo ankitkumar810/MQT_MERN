@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Append Child Demo</title>
+</head>
+<body>
+    <ol id="fruitList" type="I"></ol>
+    <script>
+        let fruits = ["Apple", "Mango", "Banana", "Grapes", "Grapes"]
+        let ol = document.getElementById("fruitList");
+
+        fruits.forEach(function (fruit){
+            let li = document.createElement("li");
+            li.textContent=fruit;
+            ol.appendChild(li);
+        })
+
+    </script>
+</body>
+</html>

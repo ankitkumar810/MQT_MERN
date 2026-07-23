@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul id="UnorderedList-1" type="square">
+        <li class="items"> Item 1 </li>
+        <li class="items"> Item 2 </li>
+        <li class="items"> Item 3 </li>
+        <li class="items"> Item 4 </li>
+        <li class="items"> Item 5 </li>
+        <li class="items"> Item 6 </li>
+    </ul>
+    <ul id="UnorderedList-2">
+        <li class="items"> List Item 1 </li>
+        <li class="items"> List Item 2 </li>
+        <li class="items"> List Item 2 </li>
+        <li class="items"> List Item 3 </li>
+        <li class="items"> List Item 4 </li>
+        <li class="items"> List Item 5 </li>
+        <li class="items"> List Item 6 </li>
+    </ul>
+
+    <script>
+        let UL1=document.getElementById('UnorderedList-1');
+        let UL2=document.getElementById('UnorderedList-2');
+        let Items=document.getElementsByClassName('items')
+        console.log(UL1.textContent);
+        console.log(UL2.innerText);
+        let allListItems = document.getElementsByTagName('li');
+        Object.values (allListItems).forEach((element) => {
+            console.log(element);
+        }); 
+
+        let listItems=document.querySelector('#UnorderedList-1');
+        console.log(listItems)
+
+    </script>
+</body>
+</html>
