@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <ul id="UnorderedList-1" type="square">
+        <li class="items"> Item 1 </li>
+        <li class="items"> Item 2 </li>
+        <li class="items"> Item 3 </li>
+        <li class="items"> Item 4 </li>
+    </ul>
+
+        <!-- insertAdjacentHTML(positions,text): 
+        positions :  beforebegin, afterbegin, before-end and afterend -->
+
+    <script>
+       // Parent Element
+        let List = document.getElementById('list');
+        console.log(List.cloneNode();
+        List.insertAdjacentHTML(
+            'afterend',
+            '<h1>Lorem ipsum dolor, sit amet consectetur adipisicing</h1>'
+        );
+    </script>
+</body>
+</html>

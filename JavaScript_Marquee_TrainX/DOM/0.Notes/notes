@@ -20,12 +20,7 @@ Eg. body is the child node of html Node
 
 1. getElementById() Methods returns an element object  that represents an HTML Element else null , if there are multiple element with same "id" then you'll get only first Occurrence.
 
-
 Eg.  document.getElementById('container');
-
-
-
-
 
 
 3. The getElementsByClassName() method returns an array-like of objects of the child elements with a specified class name. else ** Empty HTMLCollection:[].
