@@ -141,8 +141,6 @@ Example: parentNode.removeChild(parent.firstElementChild)
 
  *****getElementsByName: The getElementsByTagName() method accepts a tag name and returns a HTMLCollection (Array) of elements. else Empty  HTMLColle
 
-Laksh
-9:35 AM
 What is Node in DOM
 
 Element and TextNode
@@ -164,20 +162,12 @@ Eg. body is the child node of html Node
 2. Selecting HTML Elements 
 
 1. getElementById() Methods returns an element object  that represents an HTML Element else null , if there are multiple element with same "id" then you'll get only first Occurrence.
-
-
 Eg.  document.getElementById('container');
-
-
-
-
 
 
 3. The getElementsByClassName() method returns an array-like of objects of the child elements with a specified class name. else ** Empty HTMLCollection:[].
 
   Example:  let someParas = document.getElementsByClassName('paras');
-
-
 * We can access elements based on particular Parent Element
 
 
