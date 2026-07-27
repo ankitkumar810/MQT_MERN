@@ -6,12 +6,11 @@ Node Relationship
 Eg. body is the child node of html Node
 
 
- <div>  // Parent Element
+    <div> // Parent Element
       <p>Javscript</p>// First Child Node
       <p>Javscript</p> // Next Sibling Node for First child node
       <p>Javscript</p>//  Next Sibling for Second
       <p>Javscript</p> // Last Child Node
-
     </div> 
 
 
@@ -33,7 +32,7 @@ Eg.  document.getElementById('container');
 
 4. querySelector Vs querySelectorAll 
 
-Note: very Effective :  allow to select based on classname  , id , complex css selector 
+Note: very Effective :  allow to select based on classname , id , complex css selector 
   	
 	querySelector() method allow to select the first element that macthes one 	or more CSS Selectors
 
