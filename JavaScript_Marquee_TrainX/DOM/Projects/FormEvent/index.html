@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Event</title>
+</head>
+<body>
+    <form id="myForm">
+        <input type="text" required />
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+    
+    <script>
+
+        document.querySelector('form').addEventListener('submit', (e) => {
+            //e.preventDefault(); 
+            console.log(e);
+            console.log('Form Submit');
+        });
+        document.querySelector('form').addEventListener('reset', (e) => {
+            e.preventDefault();
+            console.log(e);
+            console.log('Form reset');
+        });
+    </script>
+</body>
+</html>
